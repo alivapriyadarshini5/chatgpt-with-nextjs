@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/*custom utility classes*/
+@layer components{
+    .infoText{
+        @apply p-4 bg-gray-700/50 max-w-[300px]
+    }
+}
